@@ -46,6 +46,9 @@ adds a launcher and application-menu entry.
 Run it with:
 
     awesomebrowse
+If that fails:
+
+    python3 awesomebrowse
 
 Or with flags:
 
@@ -74,7 +77,7 @@ too if you want to remove everything.
   form data can lose that data when slept.
 - Many features are broken/don't work properly, and I am aware of this and\
   constantly working on fixing it. I appreciate any help!
-
+- Some CAPTCHAS may not work, but most sign ins are fine. 
 ## Licence
 
 GPL-3.0. See LICENSE.
