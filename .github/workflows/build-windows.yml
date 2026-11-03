@@ -3,7 +3,7 @@ name: Build Windows Executable
 on:
   push:
     branches: [ "main" ]
-  workflow_dispatch:
+  workflow_dispatch: # This lets you run it manually from the Actions tab
 
 jobs:
   build:
@@ -26,7 +26,7 @@ jobs:
 
     - name: Build with PyInstaller
       run: |
-        pyinstaller --onefile --windowed --name AwesomeBrowse awesomebrowse/awesomebrowse_2.1.1.py
+        pyinstaller --onefile --windowed --collect-all PyQt6 --name AwesomeBrowse awesomebrowse/awesomebrowse_2.1.1.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
