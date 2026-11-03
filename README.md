@@ -37,7 +37,7 @@ Arch:
 
 ## Install
 
-    git clone https://github.com/YOURNAME/awesomebrowse.git
+    git clone https://github.com/amarjeetkaurbittu1982-ai/awesomebrowse.git
     cd awesomebrowse
     ./install.sh
 
