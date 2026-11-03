@@ -48,7 +48,7 @@ Run it with:
     awesomebrowse
 If that fails:
 
-    python3 awesomebrowse
+    python3 awesomebrowse_2.1.1.py
 
 Or with flags:
 
