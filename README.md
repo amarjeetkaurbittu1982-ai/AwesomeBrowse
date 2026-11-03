@@ -1,4 +1,3 @@
-cat > README.md <<'README_END'
 # AwesomeBrowse 2
 
 A clean, themeable, Chromium-based browser built on PyQt6 and Qt WebEngine.
